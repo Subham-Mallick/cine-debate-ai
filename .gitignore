@@ -1,14 +1,19 @@
-# Virtual env
+# Virtual environment
 .venv/
 
 # Environment variables
 .env
 
 # Data files
-data/IMDb movies.csv
-data/movie_index.faiss
-data/movie_metadata.pkl
+data/
+*.faiss
+*.pkl
 
-# Python cache
+# IDE files
+.idea/
+.vscode/
+
+# Cache
+.cache/
 __pycache__/
 *.pyc
